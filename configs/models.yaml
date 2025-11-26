@@ -1,0 +1,32 @@
+# 模型配置：本地与联网默认值，脚本会自动写入，无需手动填充。
+local:
+  provider: qwen2-1.5b-chat-int4
+  # 放置量化后的 GGUF 权重路径；未下载时，auto_train.py 会创建占位符
+  path: models/qwen2-1_5b-chat-int4.bin
+  download_url: https://huggingface.co/Qwen/Qwen2-1.5B-Instruct-GGUF/resolve/main/qwen2-1_5b-instruct-q4_0.gguf
+  format: gguf
+
+online:
+  provider: aliyun-qwen-max
+  endpoint: https://dashscope.aliyuncs.com/api/v1/services/aigc/text-generation/generation
+  model: qwen-max
+  api_key_env: DASHSCOPE_API_KEY
+
+# 可切换的主流候选（不需修改代码，只需下载或配置 API Key 即可）
+presets:
+  - name: qwen2.5-7b-instruct-gguf
+    path: models/qwen2.5-7b-instruct-q4_0.gguf
+    download_url: https://huggingface.co/Qwen/Qwen2.5-7B-Instruct-GGUF/resolve/main/qwen2.5-7b-instruct-q4_0.gguf
+    format: gguf
+  - name: llama-3.1-8b-instruct-gguf
+    path: models/llama-3.1-8b-instruct-q4_0.gguf
+    download_url: https://huggingface.co/unsloth/llama-3.1-8b-instruct-bnb-4bit-GGUF/resolve/main/model.q4_0.gguf
+    format: gguf
+  - name: glm-4-9b-chat-online
+    endpoint: https://open.bigmodel.cn/api/paas/v4/chat/completions
+    model: glm-4-flash
+    api_key_env: ZHIPU_API_KEY
+  - name: moonshot-kimi-online
+    endpoint: https://api.moonshot.cn/v1/chat/completions
+    model: moonshot-v1-8k
+    api_key_env: MOONSHOT_API_KEY

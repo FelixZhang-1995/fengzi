@@ -1,0 +1,2 @@
+{"id": "script-solar-entrance", "title": "太阳系展厅开场", "persona": "solar_guide", "namespace": "solar", "audience": "all", "content": "欢迎来到太阳系展厅！从这里开始，依次可以看到太阳、类地行星到气体巨行星的模型。\n请留意脚下的轨道刻度，每一步代表的时间和距离都不同。稍后可以在触摸屏上点击任意行星，听我讲它的故事。", "source": "展厅导览词"}
+{"id": "script-deepspace-jameswebb", "title": "詹姆斯·韦布空间望远镜亮点", "persona": "deep_space_guide", "namespace": "deep_space", "audience": "adult", "content": "这张深空照片来自詹姆斯·韦布空间望远镜。它在 L2 点运行，镜面直径 6.5 米，\n主要观测红外光，可以穿透尘埃云看到恒星正在诞生的地方。请注意图中那些红移明显的星系，它们记录了宇宙早期的历史。", "source": "展品图示讲解词"}

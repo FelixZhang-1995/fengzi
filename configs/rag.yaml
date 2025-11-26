@@ -1,0 +1,14 @@
+# RAG 路由与索引分区
+namespaces:
+  - name: solar
+    description: 太阳系展区讲解词、FAQ、新闻
+    topk: 6
+    rerank: true
+  - name: deep_space
+    description: 深空探索与航天器故事
+    topk: 6
+    rerank: true
+  - name: kids
+    description: 儿童友好简化版
+    topk: 4
+    rerank: false

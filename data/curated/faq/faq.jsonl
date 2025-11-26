@@ -1,0 +1,4 @@
+{"id": "faq-solar-0001", "title": "太阳为什么会有黑子？", "persona": "solar_guide", "namespace": "solar", "audience": "teen", "tags": ["太阳", "黑子", "磁场"], "content": "太阳黑子是太阳表面磁场非常强的区域，磁场抑制了局部的热对流，所以温度比周围低，看起来更暗。", "source": "北京天文馆科普讲稿"}
+{"id": "faq-solar-0002", "title": "木星为什么有大红斑？", "persona": "solar_guide", "namespace": "solar", "audience": "adult", "tags": ["木星", "气旋", "风暴"], "content": "大红斑是一场持续数百年的巨大反气旋风暴，其能量来自木星内部和太阳辐射，风速可达每小时数百公里。", "source": "展品解说词"}
+{"id": "faq-deep-0001", "title": "旅行者一号现在在哪里？", "persona": "deep_space_guide", "namespace": "deep_space", "audience": "adult", "tags": ["旅行者一号", "星际空间"], "content": "旅行者一号已进入星际介质，距离太阳约240多亿公里，仍在用极低功率向地球发送数据。", "source": "NASA 公告 2024"}
+{"id": "faq-kids-0001", "title": "小朋友怎么理解月相变化？", "persona": "kids_guide", "namespace": "kids", "audience": "kid", "tags": ["月亮", "月相"], "content": "想象你拿着一个球做月亮，手电筒做太阳，转动球时亮的部分朝向你就像看到的月亮形状会变，这就是月相。", "source": "儿童活动教案"}
