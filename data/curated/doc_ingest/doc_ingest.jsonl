@@ -1,0 +1,2 @@
+{"type": "docx", "file": "exhibition_outline.docx", "content": "北京天文馆展览大纲（示例）\n展区：太阳系 —— 包含太阳、类地行星、气体巨行星模型。\n讲解词：围绕大红斑、日冕物质抛射、行星轨道比例等重点展开。\n互动：触摸屏问题引导 + 观测小任务。", "namespace": "solar", "persona": "solar_guide", "source": "docx_ingest"}
+{"type": "spreadsheet", "file": "exhibit_inventory.xlsx", "records": [{"展品名": "木星模型", "展区": "太阳系", "亮点": "大红斑动态演示"}, {"展品名": "詹姆斯·韦布望远镜模型", "展区": "深空", "亮点": "红外观测能力"}], "namespace": "solar", "persona": "solar_guide", "source": "xls_ingest"}

@@ -1,0 +1,22 @@
+# 数据源与采集计划（示例）
+datasources:
+  - id: museum-internal
+    type: pdf
+    path: data/raw_pdf
+    schedule: manual
+  - id: museum-docx
+    type: docx
+    path: data/raw_docx
+    schedule: manual
+  - id: museum-photos
+    type: image
+    path: data/raw_img
+    schedule: manual
+  - id: museum-xls
+    type: spreadsheet
+    path: data/raw_xls
+    schedule: manual
+  - id: open-news
+    type: rss
+    path: https://www.nasa.gov/news-release/feed/
+    schedule: daily
